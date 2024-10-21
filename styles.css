@@ -1,0 +1,99 @@
+/* General styling for the body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #e7f1ff; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* Title styling */
+h1 {
+    font-size: 28px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input styling */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
+/* Button styling */
+button {
+    background-color: #384654;
+    color: white;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* Result styling */
+#result {
+    margin-top: 20px;
+}
+
+#result h2 {
+    font-size: 22px;
+    color: #004080;
+}
+
+#evenNumbersList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#evenNumbersList li {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 450px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
